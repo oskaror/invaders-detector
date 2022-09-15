@@ -1,0 +1,13 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: disable
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
